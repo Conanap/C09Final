@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou");
+@import url("https://fonts.googleapis.com/css?family=Rajdhani");
+body {
+  background-color: #232834;
+  margin: 0;
+}
+
+.root {
+}
+
+.top-bar {
+  padding-top: 5vh;
+  height: 10vh;
+}
+
+.floaty {
+  font-family: "Rajdhani", Arial;
+  font-size: 20px;
+  color: #ffcc66;
+  padding-left: 1vw;
+  position: absolute;
+  z-index: 10000;
+}
+
+.navbar-link {
+  font-family: "Rajdhani", Arial;
+  font-size: 14px;
+  color: #5ccfe6;
+  padding-right: 10px;
+}
+
+#cursive-title {
+  font-family: "ZCOOL QingKe HuangYou", cursive;
+  color: white;
+  font-size: 70px;
+  margin: auto;
+  text-align: center;
+}
+
+#small-cursive-title {
+  font-family: "ZCOOL QingKe HuangYou", cursive;
+  color: white;
+  font-size: 40px;
+  margin: 2vh auto;
+  text-align: center;
+}
+
+#description-text {
+  font-family: "Rajdhani", Arial;
+  color: #ffcc66;
+  font-size: 20px;
+  text-align: center;
+  margin: -5px auto;
+}
+
+.flex-container {
+  margin-top: 3vh;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+
+.title-text {
+  font-family: "ZCOOL QingKe HuangYou", cursive;
+}
+
+.large {
+  width: 60px;
+  height: 60px;
+}
+
+#image-tab {
+  width: 50%;
+  min-height: 70vh;
+}
+
+#auth-tab {
+  width: 50%;
+}
+
+#tron-gif {
+  background-image: url("../assets/tron.jpg");
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.box {
+  background-color: #141925;
+  width: 50%;
+  margin: 5vh auto;
+  min-height: 50vh;
+  border: 1px solid white;
+  border-radius: 15px;
+  color: #5ccfe6;
+  font-size: 18px;
+  padding: 10px;
+  padding-bottom: 25px;
+  font-family: "Rajdhani", Arial;
+}
+
+.no-deco {
+  text-decoration: none;
+}

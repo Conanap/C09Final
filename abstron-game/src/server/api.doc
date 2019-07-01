@@ -1,0 +1,24 @@
+type SecureUser: UserType {
+    id: Int!
+    username: String!
+    hashed: String!
+    salt: String!
+    firstName: String!
+    lastName: String!
+}
+
+type User: UserType {
+    id: Int!
+    username: String!
+    firstName: String!
+    lastName: String!
+}
+
+type Query: QueryType {
+    users: [User]
+    user(id: Int): User
+}
+
+type Mutation: MutationType {
+    createUser(username: String, firstName: String, lastName: String, password: String): User
+}

@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css?family=Rajdhani");
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 5px 8px;
+  font-size: 16px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: "Rajdhani", Arial;
+}
+
+input[type="password"],
+select {
+  width: 100%;
+  padding: 5px 8px;
+  font-size: 16px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: "Rajdhani", Arial;
+}
+
+input[type="submit"] {
+  width: 80%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+  font-family: "Rajdhani", Arial;
+}
+
+input[type="submit"]:hover {
+  background-color: #77a8d9;
+}
+
+#error-box {
+  font-family: "Rajdhani";
+  color: #f45342;
+  font-size: 16px;
+  margin-left: 14px;
+}

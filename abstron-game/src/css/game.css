@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Rajdhani");
+
+#game-canvas {
+  padding: 0;
+  margin: auto;
+  display: block;
+  width: 1400px;
+  border: 1px solid white;
+}
+
+.info {
+  padding: 20px;
+}
+
+#game-stats {
+  font-size: 14px;
+}
+
+#post_modal {
+  display: none;
+  height: 80vh;
+  width: 100vw;
+  position: absolute;
+  background-color: rgba(1, 1, 1, 0.6);
+  z-index: 10000;
+}
+
+.popup {
+  width: 25%;
+  margin: 20vh auto;
+  display: block;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 12px;
+  padding: 12px;
+  font-size: 24px;
+  font-family: "Rajdhani", serif;
+}
+
+.popup_btn {
+  font-size: 18px;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  margin-right: 20px;
+  font-family: "Rajdhani", serif;
+}
+
+#game-content {
+  margin: auto;
+  margin-top: 5vh;
+  font-family: "Rajdhani";
+  font-size: 16px;
+  color: white;
+}
+
+#current-score {
+  color: #99ff99;
+}
+
+#enemy-score {
+  color: #f48341;
+}
+
+.your-info {
+  padding-left: 3vw;
+  float: left;
+}
+.enemy-info {
+  float: right;
+  padding-right: 5vw;
+}
